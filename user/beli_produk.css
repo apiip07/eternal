@@ -1,0 +1,156 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+header img {
+    height: 50px;
+    vertical-align: middle;
+}
+
+header .navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header .navbar li {
+    margin: 0 10px;
+}
+
+header .navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+header .navbar a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+header .btn {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ff4b4b;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+header .btn:hover {
+    background-color: #ff2a2a;
+}
+
+/* User section styles */
+section.user {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+section.user .heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 200px; /* Atur lebar maksimum gambar */
+    height: auto; /* Biarkan tinggi gambar mengikuti proporsi aslinya */
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.product-details {
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+}
+
+.product-details h3 {
+    color: #333;
+}
+
+.product-details p {
+    color: #666;
+    margin: 5px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input[type="number"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}

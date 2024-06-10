@@ -1,0 +1,88 @@
+/* komentar.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar .logo h1 {
+    margin: 0;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links li {
+    display: inline;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+.navbar .nav-links a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.comments {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.comment {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.comment h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.comment img {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.comment p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.comment .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.comment .btn:hover {
+    background-color: #555;
+}
